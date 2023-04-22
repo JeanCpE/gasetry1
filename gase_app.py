@@ -1,9 +1,9 @@
+!pip install opencv-python streamlit Pillow
+
 import streamlit as st
 from PIL import Image
 import io
 import requests
-
-pip install opencv-python
 import cv2
 
 
