@@ -3,7 +3,7 @@ from PIL import Image
 import io
 import requests
 
-!pip install opencv-python
+!pip3 install opencv-python
 import cv2
 
 
