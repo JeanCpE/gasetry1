@@ -17,6 +17,5 @@ streamlit-folium
 streamlit-keplergl
 tropycal
 pillow
-python-cv2
 # git+https://github.com/giswqs/leafmap
 # git+https://github.com/giswqs/geemap
