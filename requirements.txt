@@ -1,5 +1,5 @@
 --find-links=https://girder.github.io/large_image_wheels GDAL
-apt-get --allow-releaseinfo-change update
+sudo apt-get --allow-releaseinfo-change update
 # cartopy
 opencv-python
 folium==0.13.0
