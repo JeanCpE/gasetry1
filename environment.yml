@@ -5,6 +5,9 @@ dependencies:
   - gdal=3.4.3
   - pip
   - pip:
+      - pandas
+      - numpy
+      - pyplot
       - geopandas
       - keplergl
       - streamlit
