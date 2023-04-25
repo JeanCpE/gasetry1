@@ -3,5 +3,3 @@ channels:
   - conda
 dependencies:
  - streamlit
- - import
- - opencv
