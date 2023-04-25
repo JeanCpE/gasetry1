@@ -1,5 +1,5 @@
-numpy
+streamlit
 pandas
 plotly
 python_dateutil
-streamlit
+opencv
