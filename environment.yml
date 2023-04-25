@@ -1,6 +1,6 @@
 name: gase
 channels:
-  - conda-forge
+  - conda
 dependencies:
  - streamlit
  - import
