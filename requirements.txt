@@ -2,4 +2,4 @@ numpy
 pandas
 plotly
 python_dateutil
-streamlit==1.1
+streamlit
