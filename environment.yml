@@ -2,5 +2,3 @@ name: gase
 channels:
   - conda-forge
 dependencies:
-  - gdal=3.4.3
-  - pip
