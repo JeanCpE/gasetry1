@@ -2,3 +2,6 @@ opencv-python-headless
 PIL
 requests
 numpy
+datetime
+calendar
+plotly
