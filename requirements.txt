@@ -2,7 +2,7 @@ streamlit
 pandas
 plotly
 python_dateutil
-opencv-python
+numpy
+opencv-python-headless
 import
 pillow
-numpy
