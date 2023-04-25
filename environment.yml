@@ -2,3 +2,4 @@ name: gase
 channels:
   - conda-forge
 dependencies:
+ - streamlit
