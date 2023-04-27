@@ -11,7 +11,7 @@ layout = "centered"
 # Everything is accessible via the st.secrets dict:
 st.write("DB username:", st.secrets["Marian"])
 st.write("DB password:", st.secrets["Marian12345"])
-st.write("My cool secrets:", st.secrets["my_cool_secrets"]["things_i_like"])
+
 # And the root-level secrets are also accessible as environment variables:
 
 import os
