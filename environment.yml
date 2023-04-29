@@ -6,6 +6,4 @@ dependencies:
 - pip:
     - streamlit 
     - streamlit-folium
-    - geopandas
-
-
+    - pillow

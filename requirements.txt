@@ -1,7 +1,6 @@
 opencv-contrib-python-headless
 PIL
 folium==0.13.0
-geopandas
 leafmap
 pandas
 # requests
