@@ -7,3 +7,4 @@ pandas
 # requests
 streamlit
 streamlit-folium
+pillow
