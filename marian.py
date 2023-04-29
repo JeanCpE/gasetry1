@@ -55,6 +55,8 @@ with st.echo():
         name="Google Satellite",
         attribution="Google",
         )
+    m.add_title("Golden Apple Snail Egg Heat Map", font_size="20px", align="center")
+    m.to_streamlit(width=700, height=500, add_layer_control=True)
     m.to_streamlit() 
 #Add the heatmap
 with st.echo():
@@ -71,16 +73,6 @@ with st.echo():
         radius=12,
     )
 
-
-"## Change basemaps"
-with st.echo():
-    m = leafmap.Map()
-    m.add_basemap("Esri.NatGeoWorldMap")
-    m.to_streamlit()
-
-
-    # m.add_title("Golden Apple Snail Egg Heat Map", font_size="20px", align="center")
-    # m.to_streamlit(width=700, height=500, add_layer_control=True)
 
 
 
