@@ -2,6 +2,8 @@ name: gase
 channels:
   - conda
 dependencies:
- - streamlit 
- - streamlit-folium
- 
+- pip
+- pip:
+    - streamlit 
+    - streamlit-folium
+
