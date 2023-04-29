@@ -9,5 +9,6 @@ plotly
 streamlit
 folium==0.13.0
 streamlit-folium
-
+leafmap
+git+https://github.com/giswqs/leafmap
 

@@ -1,6 +1,6 @@
 name: gase
 channels:
-  - conda
+  - conda-forge
 dependencies:
 - pip
 - pip:
