@@ -8,6 +8,7 @@ dependencies:
     - streamlit-folium
     - geopandas
     - opencv-python
+    - leafmap
 
 
 
