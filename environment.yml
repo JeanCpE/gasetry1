@@ -1,6 +1,6 @@
 name: gase
 channels:
-  - conda-forge
+  - conda == 23.3.1
 dependencies:
 - pip
 - pip:
@@ -8,6 +8,5 @@ dependencies:
     - streamlit-folium
     - geopandas
     - leafmap
-
 
 
