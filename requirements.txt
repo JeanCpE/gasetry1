@@ -8,3 +8,5 @@ plotly
 leafmap
 folium==0.13.0
 streamlit-folium
+streamlit
+
