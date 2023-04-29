@@ -8,8 +8,6 @@ dependencies:
     - streamlit-folium
     - geopandas
     - opencv-python
-    - pandas
-    - PIL
 
 
 
