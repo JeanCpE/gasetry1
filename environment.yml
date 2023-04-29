@@ -6,4 +6,10 @@ dependencies:
 - pip:
     - streamlit 
     - streamlit-folium
+    - geopandas
+    - opencv-python
+    - pandas
+    - PIL
+
+
 
