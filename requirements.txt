@@ -1,0 +1,14 @@
+opencv-contrib-python-headless
+PIL
+pandas
+requests
+numpy
+datetime
+calendar
+plotly
+leafmap
+streamlit
+folium==0.13.0
+streamlit-folium
+
+
