@@ -2,7 +2,6 @@
 #-------Dependencies-----------
 import streamlit as st
 from streamlit.web.cli import main 
-
 import pandas as pd
 import leafmap.foliumap as leafmap
 
@@ -39,23 +38,23 @@ df = load_data(st.secrets["public_gsheets_url"])
 df = df.drop('No', axis=1)
 
 #Open Leafmap with Google Map Layer
-with st.echo():   
-    import streamlit as st
-    import leafmap.foliumap as leafmap
-        
-    m = leafmap.Map(height="1020px", width="720px",center=[12.3, 122], zoom=6.5)
-    colors = ['blue','red']
-    vmin = 1
-    vmax = 100
-    m.add_colorbar(colors=colors, vmin=vmin, vmax=vmax)
+# with st.echo():   
+import streamlit as st
+import leafmap.foliumap as leafmap
+    
+m = leafmap.Map(height="1020px", width="720px",center=[12.3, 122], zoom=6.5)
+colors = ['blue','red']
+vmin = 1
+vmax = 100
+m.add_colorbar(colors=colors, vmin=vmin, vmax=vmax)
 
 #added layer
-    m.add_tile_layer(
-        url="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
-        name="Google Satellite",
-        attribution="Google",
-        )
-    m.to_streamlit() 
+m.add_tile_layer(
+    url="https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}",
+    name="Google Satellite",
+    attribution="Google",
+    )
+m.to_streamlit() 
 #Add the heatmap
 with st.echo():
     import leafmap.foliumap as leafmap
@@ -72,11 +71,11 @@ with st.echo():
     )
 
 
-"## Change basemaps"
-with st.echo():
-    m = leafmap.Map()
-    m.add_basemap("Esri.NatGeoWorldMap")
-    m.to_streamlit()
+# "## Change basemaps"
+# with st.echo():
+# m = leafmap.Map()
+# m.add_basemap("Esri.NatGeoWorldMap")
+# m.to_streamlit()
 
 
     # m.add_title("Golden Apple Snail Egg Heat Map", font_size="20px", align="center")
