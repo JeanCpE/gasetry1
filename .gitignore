@@ -10,7 +10,7 @@ private/
 *.so
 
 #Streamlit
-.streamlit
+.streamlit/
 
 
 # Distribution / packaging
